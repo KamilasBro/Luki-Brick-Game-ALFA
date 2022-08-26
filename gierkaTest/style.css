@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    margin-top: 0;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    background: rgba(235, 235, 235, 0.295);
+    font-family: Roboto;
+    text-shadow: 1px 1px 1px #000000;
+}
+ul{
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+span{
+    color: rgb(75, 128, 226);
+}
+#gameScreen{
+    border: 1px solid black;
+}
+img{
+    display: none;
+}
+.manual{
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+.screen1{
+    display: block;
+}
+.screen2{
+    display: none;
+    text-align: center;
+    font-size: 15px;
+}
+@media (max-width: 799px)
+{
+    .screen1{
+        display: none;
+    }
+    .screen2{
+        display: block;
+    }
+    body{
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+    }
+}
+@media (max-height: 599px)
+{
+    .screen1{
+        display: none;
+    }
+    .screen2{
+        display: block;
+    }
+}

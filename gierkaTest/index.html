@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luki brick game ALFA</title>
+</head>
+<body>
+    <img id="img_ball" src="Images/luki.png" alt="">
+    <img id="img_brick" src="Images/brick.gif" alt="">
+    <div class="screen1">
+        <canvas id="gameScreen" width="800px" height="600px"></canvas>
+        <div class="manual">
+        <ul>
+            <li>
+                Press <span>SPACE</span> to start
+            </li>
+            <li>
+                Press <span>ESC</span> to Pause/Resume
+            </li>
+            <li>
+                Move the Paddle with
+                <span> LEFT </span>and<span> RIGHT ARROWS </span>
+                or with<span> A </span>and<span> D </span>
+            </li>
+            <li>
+                <p>Current Level: <span id="currentLvl"></span></p>
+            </li>
+            <li>
+                <p >Lives: <span id="lives"></span></p>
+            </li>
+            <li>
+                <p>Game can slow your computer if paused or in start screen :/</p>
+            </li>
+        </ul>
+        </div>
+    </div>
+    <div class="screen2">
+        <h1>Please set your Width and Height to 800x600 pixels or use different device</h1>
+    </div>
+    <script src="src/script.js"></script>
+</body>
+</html>
