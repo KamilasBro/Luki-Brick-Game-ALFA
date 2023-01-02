@@ -365,6 +365,5 @@ function gameLoop(timeStamp)
 
     game.update(deltaTime);
     game.draw(ctx);
-    requestAnimationFrame(gameLoop);
 }
 gameLoop();
